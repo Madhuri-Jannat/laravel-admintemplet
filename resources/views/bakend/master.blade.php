@@ -6,7 +6,7 @@
   <meta name="description" content="adminHMD professional admin dashboard template">
   <title>Dashboard | adminHMD</title>
 
- @yield('styles')
+ @stack('styles')
 </head>
 
 <body>
@@ -18,12 +18,12 @@
     <div class="admin-main">
      @include('bakend.parts.topbar')
 
-    @yield('bakend')
+    @stack('bakend')
 
    @include('bakend.parts.footer')
     </div>
   </div>
 
-@yield('scrips')
+@stack('scrips')
 </body>
 </html>

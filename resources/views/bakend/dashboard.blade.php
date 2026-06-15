@@ -1,13 +1,13 @@
 @extends('bakend.master')
 
-@section('styles')
+@push('styles')
  <link rel="stylesheet" href="{{asset('')}}assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{asset('')}}assets/vendors/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="{{asset('')}}assets/css/style.css">
-@endsection()
+@endpush()
 
 
-@section('bakend')
+@push('bakend')
 
   <main class="dashboard-content">
         <div class="container-fluid px-3 px-lg-4 py-4">
@@ -85,9 +85,9 @@
 
         </div>
       </main>
-@endsection()
+@endpush()
 
-@section('scrips')
+@push('scrips')
   <script src="{{asset('')}}assets/js/bootstrap.bundle.min.js"></script>
   <script src="{{asset('')}}assets/js/main.js"></script>
-@endsection()
+@endpush()
