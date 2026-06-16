@@ -88,3 +88,37 @@
 @push('scrips')
  
 @endpush()
+
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="metric-card metric-warning">
+                <div class="metric-top">
+                  <span class="metric-label">Customers</span>
+                  <span class="metric-icon"><i class="bi bi-people" aria-hidden="true"></i></span>
+                </div>
+                <div class="metric-value">8,742</div>
+                <div class="metric-meta">
+                  <span class="text-success">+5.1%</span>
+                  <span>active users</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="metric-card metric-danger">
+                <div class="metric-top">
+                  <span class="metric-label">Tickets</span>
+                  <span class="metric-icon"><i class="bi bi-life-preserver" aria-hidden="true"></i></span>
+                </div>
+                <div class="metric-value">36</div>
+                <div class="metric-meta">
+                  <span class="text-danger">3 urgent</span>
+                  <span>need review</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+     
+
+        </div>
+      </main>
